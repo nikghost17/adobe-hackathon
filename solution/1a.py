@@ -68,6 +68,12 @@ def extract_headings_filtered(pdf_path):
                 "page": page
             })
 
+    def heading_sort_key(h):
+        level_number = int(h["level"][1:]) if h["level"].startswith("H") else 99
+        return (h["page"], level_number)
+
+    headings.sort(key=heading_sort_key)
+
     return {
         "title": title,
         "outline": headings

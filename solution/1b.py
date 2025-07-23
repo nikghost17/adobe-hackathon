@@ -1,134 +1,123 @@
 import os
-import fitz  # PyMuPDF
 import json
-import re
+import fitz  # PyMuPDF
 from datetime import datetime
+from collections import Counter
 
-# === CONFIG ===
-PDF_FOLDER = "C:/Users/varni/OneDrive/Desktop/Adobe/adobe-hackathon/Resources/Challenge_1b/Collection 1/PDFs"
-OUTPUT_PATH = "./output/result.json"
 
-# === Define Persona & Task (Dynamic Inputs) ===
-PERSONA = "Travel Planner"
-JOB_TO_BE_DONE = "Plan a trip of 4 days for a group of 10 college friends."
+def extract_text_by_page(file_path):
+    doc = fitz.open(file_path)
+    return [(i + 1, page.get_text()) for i, page in enumerate(doc)]
 
-# === Load stopwords ===
-def load_stopwords():
-    # Lightweight internal list to avoid nltk/downloads
-    return set([
-        "this", "that", "with", "have", "from", "they", "would", "there", "their",
-        "about", "could", "should", "where", "which", "those", "after", "again",
-        "above", "because", "below", "very", "while", "being", "into", "some",
-        "other", "more", "what", "when", "your", "you", "for", "and", "the", "are"
-    ])
 
-# === Extract relevant keywords ===
-def extract_keywords(text, stopwords):
-    words = re.findall(r'\b\w{4,}\b', text.lower())
-    return list(set(w for w in words if w not in stopwords))
+def is_likely_heading(line):
+    line = line.strip()
+    if len(line) > 100 or len(line) < 10:
+        return False
+    if line.endswith("."):
+        return False
+    # Heuristic: Title case OR high capital ratio
+    words = line.split()
+    title_case_count = sum(w[0].isupper() for w in words)
+    capital_ratio = sum(c.isupper() for c in line) / (len(line) + 1e-5)
+    return title_case_count / len(words) > 0.6 or capital_ratio > 0.4
 
-# === Score content relevance ===
-def score_text_relevance(text, keywords):
-    score = 0
-    text_lower = text.lower()
-    for keyword in keywords:
-        score += text_lower.count(keyword)
-    return score
 
-# === Summarize text ===
-def summarize(text):
-    lines = [l.strip() for l in text.split("\n") if len(l.strip()) > 40]
-    return " ".join(lines[:5])[:1000]
+SKIP_TITLES = {"introduction", "conclusion", "table of contents", "about", "references"}
 
-# === Main extraction function ===
-def extract_from_pdfs():
-    stopwords = load_stopwords()
-    keywords = extract_keywords(PERSONA + " " + JOB_TO_BE_DONE, stopwords)
+def detect_sections(pages, filename):
+    sections = []
+    for page_number, text in pages:
+        lines = [l.strip() for l in text.split("\n") if l.strip()]
+        for i, line in enumerate(lines):
+            if is_likely_heading(line):
+                if line.lower().strip() in SKIP_TITLES:
+                    continue  # skip generic sections
+                section = {
+                    "document": filename,
+                    "section_title": line,
+                    "page_number": page_number,
+                    "raw_text": "\n".join(lines[i: i + 20])
+                }
+                sections.append(section)
+    return sections
+
+
+from fuzzywuzzy import fuzz
+
+def rank_sections(sections, job_description):
+    for sec in sections:
+        preview = sec["raw_text"][:500]
+        combined = sec["section_title"] + " " + preview
+        sec["importance_rank"] = fuzz.token_set_ratio(combined.lower(), job_description.lower())
+    return sorted(sections, key=lambda s: s["importance_rank"], reverse=True)
+
+
+
+
+def refine_text(raw_text, max_chars=3000):
+    lines = [line.strip() for line in raw_text.splitlines() if len(line.strip()) > 30]
+    return " ".join(lines)[:max_chars]
+
+
+def process_pdfs(pdf_folder, persona, job_to_be_done):
+    input_docs = [f for f in os.listdir(pdf_folder) if f.lower().endswith(".pdf")]
+    all_sections = []
+
+    for doc in input_docs:
+        path = os.path.join(pdf_folder, doc)
+        pages = extract_text_by_page(path)
+        sections = detect_sections(pages, doc)
+        all_sections.extend(sections)
+
+    ranked_sections = rank_sections(all_sections, job_to_be_done)
 
     metadata = {
-        "input_documents": [],
-        "persona": PERSONA,
-        "job_to_be_done": JOB_TO_BE_DONE,
-        "processing_timestamp": datetime.now().isoformat()
+        "input_documents": input_docs,
+        "persona": persona,
+        "job_to_be_done": job_to_be_done,
+        "processing_timestamp": datetime.utcnow().isoformat()
     }
 
-    raw_sections = []
-    raw_subsections = []
+    extracted_sections = [
+        {
+            "document": s["document"],
+            "section_title": s["section_title"],
+            "importance_rank": i + 1,
+            "page_number": s["page_number"]
+        }
+        for i, s in enumerate(ranked_sections[:5])
+    ]
 
-    for filename in sorted(os.listdir(PDF_FOLDER)):
-        if not filename.lower().endswith(".pdf"):
-            continue
+    subsection_analysis = [
+        {
+            "document": s["document"],
+            "refined_text": refine_text(s["raw_text"]),
+            "page_number": s["page_number"]
+        }
+        for s in ranked_sections[:5]
+    ]
 
-        filepath = os.path.join(PDF_FOLDER, filename)
-        metadata["input_documents"].append(filename)
-
-        doc = fitz.open(filepath)
-
-        for page_number in range(len(doc)):
-            page = doc[page_number]
-            text = page.get_text()
-            if not text.strip():
-                continue
-
-            relevance_score = score_text_relevance(text, keywords)
-
-            section_title = text.strip().split("\n")[0][:100]
-
-            raw_sections.append({
-                "document": filename,
-                "page_number": page_number + 1,
-                "section_title": section_title,
-                "importance_score": relevance_score,
-            })
-
-            raw_subsections.append({
-                "document": filename,
-                "page_number": page_number + 1,
-                "refined_text": summarize(text),
-                "importance_score": relevance_score
-            })
-
-    # Sort and assign importance rank
-    sorted_sections = sorted(raw_sections, key=lambda x: -x["importance_score"])
-    top_sections = []
-    used_docs = set()
-
-    for entry in sorted_sections:
-        if entry["document"] not in used_docs:
-            used_docs.add(entry["document"])
-            top_sections.append(entry)
-        if len(top_sections) == 5:
-            break
-
-    for i, section in enumerate(top_sections):
-        section["importance_rank"] = i + 1
-        del section["importance_score"]
-
-    # Match top subsections from the same documents and relevance
-    sorted_subs = sorted(raw_subsections, key=lambda x: -x["importance_score"])
-    top_subsections = []
-    seen = set()
-    for sub in sorted_subs:
-        key = (sub["document"], sub["page_number"])
-        if key not in seen:
-            seen.add(key)
-            del sub["importance_score"]
-            top_subsections.append(sub)
-        if len(top_subsections) == 5:
-            break
-
-    # Final output
-    output = {
+    return {
         "metadata": metadata,
-        "extracted_sections": top_sections,
-        "subsection_analysis": top_subsections
+        "extracted_sections": extracted_sections,
+        "subsection_analysis": subsection_analysis
     }
 
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print("✅ Output saved at:", OUTPUT_PATH)
+def save_output(data, output_path):
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
+
 
 if __name__ == "__main__":
-    extract_from_pdfs()
+    # 💡 Hardcoded inputs
+    pdf_folder = "C:/Users/varni/OneDrive/Desktop/Adobe/adobe-hackathon/solution/pdfs"
+    persona = "Travel Planner"
+    job_description = "Plan a trip of 4 days for a group of 10 college friends."
+    output_file = "output.json"
+
+    result = process_pdfs(pdf_folder, persona, job_description)
+    save_output(result, output_file)
+    print(f"✅ Extraction complete. Data saved to {output_file}")
+

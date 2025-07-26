@@ -1,0 +1,77 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-26T11:50:31.840057"
+    },
+    "extracted_sections": [
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "Rau Muong Xao Toi (Stir-Fried Morning Glory with Garlic)",
+            "importance_rank": 1,
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Bok Choy with Garlic",
+            "importance_rank": 2,
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "Gyeran Jjim",
+            "importance_rank": 3,
+            "page_number": 15
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Bagel with Cream Cheese",
+            "importance_rank": 4,
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "Kachumbari",
+            "importance_rank": 5,
+            "page_number": 4
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o Sauté minced garlic in vegetable oil until fragrant. o Add morning glory and stir-fry until tender. o Add fish sauce and cook for 2 minutes.",
+            "page_number": 8
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o Sauté minced garlic in sesame oil until fragrant. o Add bok choy and stir-fry until tender. o Add soy sauce and cook for 2 minutes.",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o Beat eggs with water, salt, and chopped green onions. o Pour mixture into a heatproof bowl. o Steam for 10-15 minutes until set. o Drizzle with sesame oil and serve warm.",
+            "page_number": 15
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "Optional toppings: smoked salmon, capers, red onion, tomato slices Spread cream cheese on each half of the toasted bagel. Add optional toppings if desired.",
+            "page_number": 9
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o Dice tomatoes, onion, and cucumber. o Mix vegetables with chopped cilantro, lemon juice, and salt.",
+            "page_number": 4
+        }
+    ]
+}

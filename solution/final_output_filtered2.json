@@ -1,0 +1,83 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Learn Acrobat - Create and Convert_1.pdf",
+            "Learn Acrobat - Create and Convert_2.pdf",
+            "Learn Acrobat - Edit_1.pdf",
+            "Learn Acrobat - Edit_2.pdf",
+            "Learn Acrobat - Export_1.pdf",
+            "Learn Acrobat - Export_2.pdf",
+            "Learn Acrobat - Fill and Sign.pdf",
+            "Learn Acrobat - Generative AI_1.pdf",
+            "Learn Acrobat - Generative AI_2.pdf",
+            "Learn Acrobat - Request e-signatures_1.pdf",
+            "Learn Acrobat - Request e-signatures_2.pdf",
+            "Learn Acrobat - Share_1.pdf",
+            "Learn Acrobat - Share_2.pdf",
+            "Test Your Acrobat Exporting Skills.pdf",
+            "The Ultimate PDF Sharing Checklist.pdf"
+        ],
+        "persona": "HR professional",
+        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+        "processing_timestamp": "2025-07-26T11:51:38.767711"
+    },
+    "extracted_sections": [
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Fill in PDF Forms",
+            "importance_rank": 1,
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_2.pdf",
+            "section_title": "Compliance Standard",
+            "importance_rank": 2,
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "section_title": "Prerequisites",
+            "importance_rank": 3,
+            "page_number": 17
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "section_title": "Maintain Log Of Archival",
+            "importance_rank": 4,
+            "page_number": 26
+        },
+        {
+            "document": "Learn Acrobat - Export_1.pdf",
+            "section_title": "Generate Images",
+            "importance_rank": 5,
+            "page_number": 23
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "Not all forms are fillable. Sometimes form creators don’t convert their PDFs to interactive fillable forms. Or, they intentionally design a form that you can fill in only by hand or with the Fill & Sign tool. These non-interactive forms are called flat forms. An interactive form contains fields that you can select or fill in. 1. If necessary, select either the Hand Tool or the Select Tool from the context menu of the page (right-click on the page to open the context menu). The pointer changes to a different icon as you move it over a field. For example, tool changes to an I-beam  when you can type text into the form field. Some text fields are dynamic, meaning that they automatically resize to accommodate the amount of data you enter and can span across pages. 2. Select anywhere in the form to access options, such as radio buttons. Select inside a Press Tab to move forward or Shift+Tab to move backward. 3. When finished, submit the form to either send the data to a server or create an email Auto-Complete forms (interactive forms The Auto-Complete feature stores any entries that you type in an interactive form field. Auto- Complete then suggests or even automatically enters responses that match your typing in other form fields. The suggestions appear in a pop-up menu, from which you can select a match. The Auto-Complete feature is off by default, so you must enable it in the forms preferences if you want to use it. To remove an entry from the Auto-Complete memory, such as a misspelled entry that you found and corrected later, edit the list in the preferences. The forms preferences apply to the way that the application handles open forms as you work. The preferences aren’t saved with the PDF forms themselves. Enable the Auto-Complete option 1. From the hamburger menu, select Preferences (Windows®), or select Acrobat / Acrobat Reader > Preferences (macOS). 2. In the Preferences dialog, select Forms as the preference category. 3. Under Auto-Complete, choose Basic or Advanced from the menu. 4. Select Remember Numerical Data if you want the Auto-Complete memory to store numbers that you type into forms. When you select an option in the Auto-Complete menu, a description of how it affects the Auto-Complete behavior appears in the text area below. Delete an entry from the Auto-Complete memory 1. Open the Preferences dialog. From the hamburger menu, select Preferences (Windows®), or select Acrobat / Acrobat 3. Click Edit Entry List under Auto-Complete. 4. In the Auto-Complete Entry List dialog box, do one of the following, and then To remove all entries, select Remove All. To remove some of the entries, select the entries and click Remove. (Shift- select to select multiple adjacent entries; Ctrl-select to select multiple Change flat forms to fillable (Acrobat Pro) You can change a flat form to a fillable form by either using the Prepare Form tool or enabling the Fill & Sign tools. Acrobat and Acrobat Reader users can use the Fill & Sign tool To create an i",
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_2.pdf",
+            "refined_text": "Specify the PDF/A or PDF/E compliance standard, or none.",
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "refined_text": "Before deploying, ensure the following requirements are met: Update Acrobat. Ensure Acrobat is up-to-date by following instructions in the Release Notes for Acrobat. Also, refer to the basic configuration settings. Administrators: To turn on the new Acrobat for users, use the registry key mentioned in the Acrobat Enterprise Toolkit (ETK). Users: Choose the hamburger menu (Windows) or View (macOS), then select Enable new Acrobat. For details, see how to enable the new experience. PDF services for user profiles. Acrobat desktop and mobile: To use AI Assistant for Acrobat, you need not turn on PDF services in the Admin Console. Acrobat online: Turn on PDF services for the product profile assigned to users. See how to turn on or turn off PDF services. Acrobat Classic does not support AI Assistant. You can manage the deployment of Acrobat AI Assistant through the Adobe Admin Console. As an admin, you must add users to the Admin Console using one of the methods described in Adobe Admin Console users. You can choose to either select the users to assign or create product profiles and assign users to the profiles. For more information, see Packaging apps via the Admin Console. Once you assign AI Assistant for Acrobat, the users must restart Acrobat",
+            "page_number": 17
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "refined_text": "Creates a record of each archiving session.",
+            "page_number": 26
+        },
+        {
+            "document": "Learn Acrobat - Export_1.pdf",
+            "refined_text": "Controls how images are converted. Converted image files are referenced from within XML",
+            "page_number": 23
+        }
+    ]
+}

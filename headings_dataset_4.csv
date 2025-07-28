@@ -1,0 +1,527 @@
+heading_text,label,page,font_size,font_name,is_bold,alignment,indentation,is_numbered,has_colon,line_length
+Application form for grant of LTC advance,H1,1,11.67,Arial,TRUE,right,199.86,FALSE,FALSE,41
+Revision History,H1,2,15.96,Arial,TRUE,left,70.944,FALSE,FALSE,16
+Table of Contents,H1,3,15.96,Arial,TRUE,left,70.944,FALSE,FALSE,17
+Acknowledgements,H1,4,15.96,Arial,FALSE,left,70.944,FALSE,FALSE,16
+1.Introduction to the Foundation Level Extensions,H1,5,15.96,Arial,FALSE,left,70.944,TRUE,TRUE,50
+2.Introduction to Foundation Level Agile Tester Extension,H1,6,15.96,Arial,FALSE,center,70.944,TRUE,TRUE,58
+2.1 Intended Audience,H2,6,14.04,Arial,FALSE,left,70.944,TRUE,FALSE,21
+2.2 Career Paths for Testers,H2,6,14.04,Arial,FALSE,left,70.944,TRUE,FALSE,28
+2.3 Learning Objectives,H2,6,14.04,Arial,FALSE,left,70.944,TRUE,FALSE,23
+2.4 Entry Requirements,H2,7,14.04,Arial,FALSE,left,70.944,TRUE,FALSE,22
+2.5 Structure and Course Duration,H2,7,14.04,Arial,FALSE,left,70.944,TRUE,FALSE,33
+2.6 Keeping It Current,H2,8,14.04,Arial,FALSE,left,70.944,TRUE,FALSE,22
+3.Overview of the Foundation Level Extension – Agile TesterSyllabus,H1,9,15.96,Arial,FALSE,center,70.944,TRUE,TRUE,60
+3.1 Business Outcomes,H2,9,14.04,Arial,FALSE,left,70.944,TRUE,FALSE,21
+3.2 Content,H2,9,14.04,Arial,FALSE,left,70.944,TRUE,FALSE,11
+4.References,H1,11,15.96,Arial,TRUE,left,70.944,FALSE,FALSE,13
+4.1 Trademarks,H2,11,14.04,Arial,FALSE,left,70.944,TRUE,FALSE,14
+4.2 Documents and Web Sites,H2,11,14.04,Arial,FALSE,left,70.944,TRUE,FALSE,23
+Ontario’s Digital Library,H1,2,20.04,Arial-Black,TRUE,left,90.04,FALSE,FALSE,25
+A Critical Component for Implementing Ontario’s Road Map to Prosperity Strategy,H1,2,15.96,ArialMT,FALSE,center,90.04,FALSE,FALSE,59
+Summary,H2,2,12,Arial-Black,TRUE,left,96.04,FALSE,FALSE,7
+Background,H2,3,12,Arial-Black,TRUE,left,96.04,FALSE,FALSE,10
+Equitable access for all Ontarians:,H3,4,11.04,Arial-BoldItalicMT,TRUE,left,90.03,FALSE,TRUE,35
+Shared decision-making and accountability:,H3,4,11.04,Arial-BoldItalicMT,TRUE,left,90.03,FALSE,TRUE,42
+Shared governance structure:,H3,4,11.04,Arial-BoldItalicMT,TRUE,left,90.03,FALSE,TRUE,28
+Shared funding:,H3,4,11.04,Arial-BoldItalicMT,TRUE,left,90.03,FALSE,TRUE,15
+Local points of entry:,H3,5,11.04,Arial-BoldItalicMT,TRUE,left,90,TRUE,TRUE,22
+Access:,H3,5,11.04,Arial-BoldItalicMT,TRUE,left,90,FALSE,TRUE,7
+Guidance and Advice:,H3,5,11.04,Arial-BoldItalicMT,TRUE,left,90,FALSE,TRUE,20
+Training:,H3,5,11.04,Arial-BoldItalicMT,TRUE,left,90,FALSE,TRUE,9
+Provincial Purchasing & Licensing:,H3,5,11.04,Arial-BoldItalicMT,TRUE,left,90,FALSE,TRUE,34
+Technological Support:,H3,5,11.04,Arial-BoldItalicMT,TRUE,left,90,FALSE,TRUE,22
+What could the ODL really mean?,H2,5,11.04,Arial-Black,TRUE,left,90,FALSE,FALSE,31
+For each Ontario citizen it could mean:,H4,5,11.04,Arial-BoldMT,TRUE,left,90,FALSE,TRUE,39
+For each Ontario student it could mean:,H4,5,11.04,Arial-BoldMT,TRUE,left,89.99,FALSE,TRUE,39
+For each Ontario library it could mean:,H4,6,11.04,Arial-BoldMT,TRUE,left,90.03,FALSE,TRUE,39
+For the Ontario government it could mean:,H4,6,11.04,Arial-BoldMT,TRUE,left,90.03,FALSE,TRUE,41
+The Business Plan to be Developed,H2,6,12,Arial-Black,TRUE,left,96.04,FALSE,FALSE,33
+Milestones,H3,7,12,Arial-Black,TRUE,left,96.04,TRUE,FALSE,10
+Approach and Specific Proposal Requirements,H2,7,12,Arial-Black,TRUE,left,99.52,FALSE,FALSE,43
+Evaluation and Awarding of Contract,H2,8,12,Arial-Black,TRUE,left,96.04,FALSE,FALSE,35
+Appendix A: ODL Envisioned Phases & Funding,H2,9,12,Arial-Black,TRUE,left,90.04,TRUE,TRUE,44
+Appendix B:,H2,11,12,Arial-Black,TRUE,left,96.04,TRUE,TRUE,11
+ODL Steering Committee Terms of Reference,H2,11,12,Arial-Black,TRUE,right,198.02,FALSE,FALSE,41
+5.Preamble,H3,11,9.96,Arial-BoldMT,TRUE,left,90.04,TRUE,FALSE,11
+6.Term,H3,12,9.96,Arial-BoldMT,TRUE,left,90.04,TRUE,FALSE,7
+7.Chair,H3,12,9.96,Arial-BoldMT,TRUE,left,90.04,TRUE,FALSE,8
+8.Meetings,H3,12,9.96,Arial-BoldMT,TRUE,left,90.04,TRUE,FALSE,11
+Appendix C:,H2,14,12,Arial-Black,TRUE,left,96.04,TRUE,TRUE,11
+ODL’s Envisioned Electronic Resources,H2,14,12,Arial-Black,TRUE,center,198,FALSE,FALSE,37
+Parsippany -Troy Hills STEM Pathways,H1,1,28.01,Calibri-Bold,TRUE,left,125.82,FALSE,FALSE,36
+PATHWAY OPTIONS,H2,0,15.31,Sniglet-Regular,FALSE,center,240.18,FALSE,FALSE,15
+Elective Course Offerings,H2,1,22.01,Sniglet-Regular,FALSE,center,182.11,FALSE,FALSE,25
+What Colleges Say!,H3,1,18.01,TimesNewRomanPS-BoldMT,TRUE,center,229.62,FALSE,FALSE,18
+Introduction,H1,1,12,AdobeClean-Bold,TRUE,left,72,TRUE,FALSE,12
+Overview of the Region,H1,2,12,AdobeClean-Bold,TRUE,left,72,FALSE,FALSE,22
+Travel Tips,H2,2,12,AdobeClean-Bold,TRUE,left,72,FALSE,FALSE,11
+Marseille: The Oldest City in France,H1,3,12,AdobeClean-Bold,TRUE,left,72,TRUE,TRUE,36
+History,H2,3,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,7
+Key Attractions,H2,3,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,15
+Local Experiences,H2,3,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,17
+Cultural Highlights,H2,3,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,19
+Nice: The Jewel of the French Riviera,H1,5,12,AdobeClean-Bold,TRUE,left,72,FALSE,TRUE,37
+History,H2,5,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,7
+Key Attractions,H2,5,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,15
+Hidden Gems,H2,5,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,11
+Cultural Highlights,H2,5,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,19
+Avignon: The City of Popes,H1,7,12,AdobeClean-Bold,TRUE,left,72,FALSE,TRUE,26
+History,H2,7,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,7
+Key Attractions,H2,7,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,15
+Cultural Activities,H2,7,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,19
+Cultural Highlights,H2,7,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,19
+Aix-en-Provence: A City of Art and Culture,H1,8,12,AdobeClean-Bold,TRUE,left,72,FALSE,TRUE,42
+History,H2,8,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,7
+Key Attractions,H2,8,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,15
+Artistic Heritage,H2,8,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,17
+Cultural Highlights,H2,8,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,19
+Toulouse: The Pink City,H1,9,12,AdobeClean-Bold,TRUE,left,72,TRUE,TRUE,23
+History,H2,9,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,7
+Key Attractions,H2,9,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,15
+Aerospace Industry,H2,9,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,18
+Cultural Highlights,H2,9,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,19
+Montpellier: A University City with Medieval Charm,H1,10,12,AdobeClean-Bold,TRUE,left,72,TRUE,TRUE,50
+History,H2,10,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,7
+Key Attractions,H2,10,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,15
+Student Life,H2,10,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,12
+Cultural Highlights,H2,10,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,19
+Perpignan: A Blend of French and Catalan Cultures,H1,11,12,AdobeClean-Bold,TRUE,left,72,TRUE,TRUE,49
+History,H2,11,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,7
+Key Attractions,H2,11,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,15
+Cultural Fusion,H2,11,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,15
+Cultural Highlights,H2,11,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,19
+Arles: A Roman Treasure,H1,12,12,AdobeClean-Bold,TRUE,left,72,TRUE,TRUE,23
+History,H2,12,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,7
+Key Attractions,H2,12,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,15
+Artistic Influence,H2,12,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,18
+Cultural Highlights,H2,12,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,19
+Carcassonne: A Medieval Fortress,H1,13,12,AdobeClean-Bold,TRUE,left,72,TRUE,TRUE,32
+History,H2,13,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,7
+Key Attractions,H2,13,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,15
+Medieval Life,H2,13,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,13
+Cultural Highlights,H2,13,12,AdobeClean-Regular,FALSE,left,72,TRUE,FALSE,19
+Conclusion,H1,14,12,AdobeClean-Bold,TRUE,left,72,TRUE,FALSE,10
+A Historical Journey Through the South of France,H1,1,12,AdobeClean-Bold,TRUE,left,72,FALSE,FALSE,48
+Key Historical Sites in Marseille,H2,2,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,33
+Key Historical Sites in Nice,H2,3,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,28
+Key Historical Sites in Avignon,H2,4,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,31
+Nîmes: The Rome of France,H1,5,12,AdobeClean-Bold,TRUE,left,72,TRUE,TRUE,25
+Key Historical Sites in Nîmes,H2,5,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,29
+Key Historical Sites in Carcassonne,H2,6,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,35
+Key Historical Sites in Toulouse,H2,7,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,32
+Key Historical Sites in Arles,H2,8,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,29
+Key Historical Sites in Aix-en-Provence,H2,9,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,39
+Key Historical Sites in Montpellier,H2,10,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,35
+Key Historical Sites in Perpignan,H2,11,12,AdobeClean-Regular,FALSE,left,72,FALSE,FALSE,33
+ADDRESS:,H1,1,12.4,Helvetica,FALSE,left,32.6488,FALSE,TRUE,8
+TOPJUMP,H1,1,12.41,Helvetica,FALSE,center,131.4354,FALSE,FALSE,7
+3735 PARKWAY,H2,1,12.4,Helvetica,FALSE,center,114.8059,TRUE,FALSE,12
+PIGEON FORGE,H2,1,12.4,Helvetica,FALSE,center,81.07899,FALSE,FALSE,22
+(NEAR DIXIE STAMPEDE ON THE PARKWAY),H3,1,9.4,Helvetica,FALSE,center,58.3879,FALSE,FALSE,36
+RSVP:,H3,1,12.4,Helvetica-Bold,TRUE,center,29.489,FALSE,TRUE,22
+CLOSED TOED SHOES ARE REQUIRED FOR CLIMBING,H4,1,7.2,Helvetica,FALSE,center,62.2978,TRUE,FALSE,43
+PARENTS OR GUARDIANS NOT ATTENDING THE PARTY,H3,1,7.2,Helvetica,FALSE,center,59.6057,FALSE,FALSE,45
+PLEASE VISIT TOPJUMP.COM TO FILL OUT WAIVER,H2,1,7.2,Helvetica,FALSE,center,65.1152,FALSE,FALSE,43
+SO YOUR CHILD CAN ATTEND.,H1,1,7.2,Helvetica,FALSE,center,106.7062,FALSE,FALSE,25
+HOPE To SEE You THERE!,H2,1,22.7,Helvetica-Bold,TRUE,center,33.4188,FALSE,FALSE,22
+WWW.TOPJUMP.COM,H2,1,18.03,Helvetica,FALSE,center,93.7867,FALSE,FALSE,15
+Parsippany -Troy Hills STEM Pathways,H1,1,28.01,Calibri-Bold,TRUE,left,125.82,FALSE,FALSE,36
+PATHWAY OPTIONS,H2,1,15.31,Sniglet-Regular,FALSE,center,240.18,FALSE,FALSE,15
+Elective Course Offerings,H2,2,22.01,Sniglet-Regular,FALSE,center,182.11,FALSE,FALSE,25
+What Colleges Say!,H3,2,18.01,TimesNewRomanPS-BoldMT,TRUE,center,229.62,FALSE,FALSE,18
+Safety Guidelines,H3,2,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,16
+Party Rules,H3,2,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,11
+Check-In Procedure,H3,2,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,18
+Waiver Requirements,H3,2,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,18
+Facility Map,H3,2,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,12
+Parking Details,H3,2,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,14
+COVID-19 Protocols,H3,2,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,18
+Food & Drinks Policy,H3,3,11,Helvetica-Bold,TRUE,left,48,FALSE,TRUE,18
+Gift Drop Location,H3,3,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,17
+Restroom Locations,H3,3,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,18
+Supervision Guidelines,H3,3,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,20
+Staff Assistance,H3,3,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,15
+Emergency Exits,H3,3,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,14
+Party Schedule,H3,4,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,14
+Lost and Found Policy,H3,4,11,Helvetica-Bold,TRUE,left,48,FALSE,FALSE,19
+Indoor Play Area,H4,2,9,Helvetica,FALSE,left,54,FALSE,FALSE,16
+Trampoline Access,H4,2,9,Helvetica,FALSE,left,54,FALSE,FALSE,17
+Climbing Wall,H4,2,9,Helvetica,FALSE,left,54,FALSE,FALSE,13
+Socks Required,H4,2,9,Helvetica,FALSE,left,54,FALSE,TRUE,14
+Allergies: Inform Staff,H4,2,9,Helvetica,FALSE,left,54,FALSE,TRUE,21
+Cake Serving Time,H4,3,9,Helvetica,FALSE,left,54,FALSE,FALSE,16
+Private Room Use,H4,3,9,Helvetica,FALSE,left,54,FALSE,FALSE,16
+Ball Pit Access,H4,3,9,Helvetica,FALSE,left,54,FALSE,FALSE,14
+Party Favor Bags,H4,3,9,Helvetica,FALSE,left,54,FALSE,FALSE,17
+Music Policy,H4,3,9,Helvetica,FALSE,left,54,FALSE,FALSE,12
+No Outside Food Allowed,H4,3,9,Helvetica,FALSE,left,54,FALSE,FALSE,22
+Clean Up Instructions,H4,3,9,Helvetica,FALSE,left,54,FALSE,FALSE,20
+Photo Booth Rules,H4,4,9,Helvetica,FALSE,left,54,FALSE,FALSE,16
+Water Fountain Location,H4,4,9,Helvetica,FALSE,left,54,FALSE,FALSE,21
+Candy Not Permitted,H4,4,9,Helvetica,FALSE,left,54,FALSE,FALSE,18
+Party End Notice,H4,4,9,Helvetica,FALSE,left,54,FALSE,FALSE,15
+Executive Summary,H1,1,22,Arial Black,TRUE,center,0,FALSE,FALSE,18
+Introduction,H1,1,20,TimesNewRoman-Bold,TRUE,center,0,FALSE,FALSE,12
+Methodology,H1,2,19,Arial,TRUE,center,0,FALSE,FALSE,11
+Results and Findings,H1,3,20,Calibri,TRUE,center,0,FALSE,FALSE,21
+Conclusions,H1,10,22,TimesNewRoman,TRUE,center,0,FALSE,FALSE,11
+Literature Review,H1,2,21,Georgia-Bold,TRUE,center,0,FALSE,FALSE,17
+1. Overview,H1,1,23,Helvetica,TRUE,left,0,TRUE,FALSE,9
+2. Analysis,H1,5,21,Arial,TRUE,left,0,TRUE,FALSE,10
+3. Case Studies,H1,14,19,TimesNewRoman-Bold,TRUE,left,0,TRUE,FALSE,13
+Financial Statements,H1,15,20,Calibri,TRUE,center,0,FALSE,FALSE,20
+Section I: Background,H1,1,22,Helvetica-Bold,TRUE,left,0,TRUE,TRUE,20
+Section II: Data Analysis,H1,3,21,Cambria,TRUE,left,0,TRUE,TRUE,24
+1.0 General Information,H1,1,22,Arial-Black,TRUE,left,0,TRUE,FALSE,22
+2.0 Experimental Design,H1,6,19,Georgia,TRUE,left,0,TRUE,FALSE,22
+Policy Overview,H1,3,20,TimesNewRoman,TRUE,center,0,FALSE,FALSE,15
+Summary & Recommendations,H1,20,20,Verdana-Bold,TRUE,center,0,FALSE,FALSE,25
+Acknowledgements,H1,25,21,Arial,TRUE,center,0,FALSE,FALSE,15
+References,H1,27,21,TimesNewRoman-Bold,TRUE,center,0,FALSE,FALSE,10
+Appendix,H1,28,19,Georgia-Bold,TRUE,center,0,FALSE,FALSE,8
+Table of Contents,H1,1,22,Calibri,TRUE,center,0,FALSE,FALSE,18
+Data Sources,H2,2,16,Arial,TRUE,left,10,FALSE,FALSE,12
+Previous Research,H2,2,16,TimesNewRoman,TRUE,left,10,FALSE,FALSE,16
+Evaluation Metrics,H2,3,16,Calibri,TRUE,left,10,FALSE,FALSE,18
+Data Collection Techniques,H2,4,15,Helvetica,TRUE,left,10,FALSE,FALSE,24
+Statistical Analysis,H2,5,17,Arial,TRUE,left,10,FALSE,FALSE,20
+2.1 Market Trends,H2,6,18,Arial-Black,TRUE,left,10,TRUE,FALSE,17
+2.2.1 Regression Results,H2,8,16,TimesNewRoman,TRUE,left,15,TRUE,FALSE,21
+Research Questions,H2,3,16,Georgia,TRUE,left,10,FALSE,FALSE,17
+Limitations,H2,21,16,Ariel,TRUE,left,10,FALSE,FALSE,12
+Discussion,H2,18,16,Calibri,TRUE,left,10,FALSE,FALSE,10
+Recommendations,H2,23,17,Calibri,TRUE,left,10,FALSE,FALSE,15
+Future Work,H2,24,15,TimesNewRoman-Bold,TRUE,left,10,FALSE,FALSE,11
+1.1 Scope of Study,H2,2,18,TimesNewRoman-Bold,TRUE,left,10,TRUE,FALSE,17
+1.2 Stakeholder Feedback,H2,4,15,Arial,TRUE,left,10,TRUE,FALSE,22
+Participant Demographics,H2,5,16,Helvetica,TRUE,left,10,FALSE,FALSE,22
+Theoretical Framework,H2,3,17,Cambria-Bold,TRUE,left,10,FALSE,FALSE,21
+Comparative Analysis,H2,9,16,Arial-Black,TRUE,left,10,FALSE,FALSE,20
+3.1 Implementation Details,H2,19,17,Arial,TRUE,left,10,TRUE,FALSE,24
+Variable Selection Criteria,H3,4,13,Arial,TRUE,left,30,FALSE,FALSE,25
+Data Cleaning Procedure,H3,5,12,TimesNewRoman,TRUE,left,30,FALSE,FALSE,22
+Missing Value Imputation,H3,5,13,Calibri,FALSE,left,40,FALSE,FALSE,25
+Feature Engineering Steps,H3,6,13,Arial,FALSE,left,40,FALSE,FALSE,25
+Training/Testing Split,H3,7,13,Helvetica-Bold,TRUE,left,35,FALSE,TRUE,21
+2.1.1 Descriptive Statistics,H3,8,13,TimesNewRoman,TRUE,left,35,TRUE,FALSE,24
+2.1.2 Outlier Detection,H3,8,13,TimesNewRoman,TRUE,left,35,TRUE,FALSE,19
+Initial Results: Overview,H3,9,13,Calibri,TRUE,left,35,FALSE,TRUE,21
+Experiment Configuration,H3,9,12,Georgia,FALSE,left,38,FALSE,FALSE,23
+Baseline Model Comparison,H3,10,12,Arial,TRUE,left,36,FALSE,FALSE,24
+Key Parameter Settings,H3,10,13,Arial-Narrow,FALSE,left,35,FALSE,FALSE,21
+Cross-Validation Results,H3,11,12,Arial,TRUE,left,40,FALSE,FALSE,24
+ROC Curve Analysis,H3,11,13,Calibri,FALSE,left,32,FALSE,FALSE,17
+Feature Importance Ranking,H3,12,12,TimesNewRoman,TRUE,left,36,FALSE,FALSE,25
+Model Performance: Precision,H3,12,13,TimesNewRoman,TRUE,left,40,FALSE,TRUE,27
+Model Performance: Recall,H3,12,13,TimesNewRoman,TRUE,left,40,FALSE,TRUE,25
+Sensitivity Analysis,H3,12,13,Calibri,FALSE,left,38,FALSE,FALSE,20
+Interpretation of Coefficients,H3,13,12,Georgia-Bold,TRUE,left,35,FALSE,FALSE,28
+Error Analysis: Common Issues,H3,14,12,Helvetica,TRUE,left,35,FALSE,TRUE,26
+User Feedback Analysis,H3,15,13,Arial,TRUE,left,40,FALSE,FALSE,21
+Detailed System Architecture,H3,16,12,Calibri,TRUE,left,35,FALSE,FALSE,28
+Load Balancing Methods,H3,17,13,Arial-Narrow,TRUE,left,38,FALSE,FALSE,20
+Cache Invalidation Approaches,H3,17,12,Verdana-Bold,TRUE,left,35,FALSE,FALSE,26
+Database Indexing Strategies,H3,18,13,TimesNewRoman,TRUE,left,39,FALSE,FALSE,25
+API Request Flow,H3,19,13,Arial,FALSE,left,40,FALSE,FALSE,16
+Logging Format Specification,H3,19,12,Arial-Black,TRUE,left,37,FALSE,FALSE,28
+Security Considerations,H3,20,13,Georgia,TRUE,left,35,FALSE,FALSE,23
+Input Validation Checks,H3,20,12,Calibri-Bold,TRUE,left,34,FALSE,FALSE,22
+3.2.1 User Privilege Levels,H3,21,13,Arial-Narrow,TRUE,left,42,TRUE,FALSE,23
+3.2.2 Access Token Generation,H3,21,13,TimesNewRoman,TRUE,left,42,TRUE,FALSE,26
+Interface Customization,H3,22,12,Arial,TRUE,left,38,FALSE,FALSE,22
+Design Guidelines,H3,22,13,Calibri-Bold,TRUE,left,36,FALSE,FALSE,17
+UI Component Library,H3,22,13,Arial,FALSE,left,40,FALSE,FALSE,20
+Localization Support,H3,23,12,Helvetica,TRUE,left,35,FALSE,FALSE,20
+End-to-End Test Cases,H3,24,13,TimesNewRoman,TRUE,left,40,FALSE,FALSE,20
+4.1.1 Integration Tests,H3,24,13,Calibri-Bold,TRUE,left,43,TRUE,FALSE,20
+4.2.2 Regression Test Results,H3,25,13,Arial,TRUE,left,44,TRUE,FALSE,25
+Release Notes: January 2024,H3,25,12,Georgia,TRUE,left,36,FALSE,TRUE,25
+Frequently Asked Questions,H3,26,12,Arial-Black,TRUE,left,35,FALSE,FALSE,26
+Glossary of Terms,H3,27,12,Calibri-Bold,TRUE,left,35,FALSE,FALSE,16
+Supporting Documentation,H3,28,13,Arial-Narrow,TRUE,left,40,FALSE,FALSE,25
+Reference Links,H3,29,12,Calibri,TRUE,left,35,FALSE,FALSE,16
+System Requirements,H1,2,21,Arial Black,TRUE,center,0,FALSE,FALSE,19
+Project Overview,H1,1,22,Cambria-Bold,TRUE,center,0,FALSE,FALSE,16
+Objectives,H1,1,21,Georgia,TRUE,center,0,FALSE,FALSE,10
+Scope Statement,H1,2,20,Helvetica,TRUE,center,0,FALSE,FALSE,15
+User Manual,H1,3,22,TimesNewRoman-Bold,TRUE,center,0,FALSE,FALSE,10
+Security Policy,H1,15,20,Arial-Bold,TRUE,center,0,FALSE,FALSE,14
+Change Log,H1,18,21,Verdana,TRUE,center,0,FALSE,FALSE,10
+Meeting Minutes,H1,6,22,Calibri,TRUE,center,0,FALSE,FALSE,15
+Executive Review,H1,28,21,Calibri-Bold,TRUE,center,0,FALSE,FALSE,15
+Customer Feedback,H1,30,22,Georgia-Bold,TRUE,center,0,FALSE,FALSE,16
+Release Management,H1,10,21,Tahoma,TRUE,center,0,FALSE,FALSE,19
+License Agreement,H1,31,21,Arial,TRUE,center,0,FALSE,FALSE,17
+Change Management,H1,24,20,Georgia-Bold,TRUE,center,0,FALSE,FALSE,16
+Business Model Canvas,H1,7,21,Cambria-Bold,TRUE,center,0,FALSE,FALSE,21
+API Documentation,H1,11,20,Arial-Black,TRUE,center,0,FALSE,FALSE,17
+Deployment Guide,H1,13,22,Verdana-Bold,TRUE,center,0,FALSE,FALSE,15
+Performance Summary,H1,9,21,TimesNewRoman-Bold,TRUE,center,0,FALSE,FALSE,19
+Migration Plan,H1,17,20,Arial,TRUE,center,0,FALSE,FALSE,14
+Key Deliverables,H1,5,21,Georgia,TRUE,center,0,FALSE,FALSE,15
+Contact Information,H1,35,20,Calibri,TRUE,center,0,FALSE,FALSE,19
+Analysis Techniques,H2,6,16,Arial,TRUE,left,10,FALSE,FALSE,18
+User Personas,H2,7,17,Calibri,TRUE,left,10,FALSE,FALSE,13
+Key Definitions,H2,8,17,TimesNewRoman,TRUE,left,10,FALSE,FALSE,15
+Validation Process,H2,9,16,Verdana,TRUE,left,10,FALSE,FALSE,17
+Reporting Standards,H2,10,16,Georgia,TRUE,left,10,FALSE,FALSE,19
+Project Phases,H2,4,15,Cambria-Bold,TRUE,left,10,FALSE,FALSE,13
+Risk Assessment,H2,12,16,Arial-Bold,TRUE,left,10,FALSE,FALSE,15
+Deployment Checklist,H2,14,16,Helvetica,TRUE,left,10,FALSE,FALSE,19
+Testing Timeline,H2,16,15,Arial,TRUE,left,10,FALSE,FALSE,15
+Maintenance Strategy,H2,18,17,Georgia-Bold,TRUE,left,10,FALSE,FALSE,18
+Communication Plan,H2,20,17,TimesNewRoman,TRUE,left,10,FALSE,FALSE,18
+Compliance Guidelines,H2,13,16,Arial,TRUE,left,10,FALSE,FALSE,20
+Environment Setup,H2,9,16,Cambria,TRUE,left,10,FALSE,FALSE,16
+Audit Trail,H2,29,15,Verdana,TRUE,left,10,FALSE,FALSE,10
+System Integration,H2,27,16,Georgia,TRUE,left,10,FALSE,FALSE,18
+Stakeholder Engagement,H2,19,17,Arial,TRUE,left,10,FALSE,FALSE,22
+Incident Response,H2,33,16,Calibri-Bold,TRUE,left,10,FALSE,FALSE,16
+Performance Metrics,H2,21,16,Arial-Bold,TRUE,left,10,FALSE,FALSE,17
+Milestone Tracking,H2,24,17,TimesNewRoman,TRUE,left,10,FALSE,FALSE,18
+Notifications,H3,10,12,TimesNewRoman,TRUE,left,35,FALSE,FALSE,12
+Access Control Lists,H3,11,13,Arial,TRUE,left,35,FALSE,FALSE,19
+CSV Data Import Methods,H3,5,13,Calibri,TRUE,left,38,FALSE,FALSE,21
+Error Logging Procedures,H3,8,13,Arial-Bold,TRUE,left,39,FALSE,FALSE,21
+UI Button Configuration,H3,12,13,Arial,TRUE,left,38,FALSE,FALSE,22
+API Rate Limiting,H3,19,12,Georgia-Bold,TRUE,left,35,FALSE,FALSE,16
+Modal Window Layout,H3,21,13,Helvetica,TRUE,left,35,FALSE,FALSE,17
+Upload File Formats,H3,23,12,Calibri-Bold,TRUE,left,35,FALSE,FALSE,18
+Backup Frequency Settings,H3,18,13,Verdana,TRUE,left,34,FALSE,FALSE,23
+OAuth Verification,H3,13,13,Arial,TRUE,left,33,FALSE,FALSE,17
+Scheduled Task Overview,H3,15,13,Georgia,TRUE,left,33,FALSE,FALSE,22
+In-Line Editing Options,H3,17,12,Calibri,TRUE,left,35,FALSE,FALSE,21
+Table Sort Functionality,H3,14,13,TimesNewRoman,TRUE,left,34,FALSE,FALSE,22
+Link Redirection Rules,H3,6,13,Arial,TRUE,left,36,FALSE,FALSE,20
+Cookie Consent Implementation,H3,20,12,Verdana,TRUE,left,35,FALSE,FALSE,26
+Route Optimization Methods,H3,16,13,Arial-Bold,TRUE,left,39,FALSE,FALSE,25
+Cluster Analysis Results,H3,26,13,Georgia,TRUE,left,34,FALSE,FALSE,21
+Index Creation Process,H3,19,13,Calibri,TRUE,left,35,FALSE,FALSE,20
+Dynamic Chart Rendering,H3,19,13,Arial,TRUE,left,35,FALSE,FALSE,23
+Alert Message Customization,H3,7,12,TimesNewRoman-Fallback,TRUE,left,36,FALSE,FALSE,25
+Language Switch Handling,H3,8,13,Arial,TRUE,left,37,FALSE,FALSE,22
+File Preview Options,H3,10,12,Arial,TRUE,left,34,FALSE,FALSE,18
+WebSocket Event List,H3,12,13,Georgia-Bold,TRUE,left,35,FALSE,FALSE,19
+Minification Techniques,H3,15,12,Calibri,TRUE,left,38,FALSE,FALSE,21
+Session Expiry Logic,H3,17,13,TimesNewRoman-Bold,TRUE,left,36,FALSE,FALSE,19
+Query Optimization,H3,21,13,Arial,TRUE,left,38,FALSE,FALSE,18
+Snapshot Aggregation,H3,23,13,Calibri,TRUE,left,40,FALSE,FALSE,19
+DNS Resolution Modes,H3,20,12,Verdana,TRUE,left,35,FALSE,FALSE,18
+Cascading Settings,H3,39,12,Calibri-Bold,TRUE,left,33,FALSE,FALSE,17
+Column Visibility Control,H3,11,13,Arial,TRUE,left,35,FALSE,FALSE,24
+Responsive Table Design,H3,12,12,Georgia,TRUE,left,32,FALSE,FALSE,22
+Server-side Exception Mapping,H3,22,13,Arial-Bold,TRUE,left,39,FALSE,FALSE,28
+Bulk Operation Validation,H3,14,12,Georgia,TRUE,left,38,FALSE,FALSE,24
+Audit Log Configuration,H3,28,13,Calibri-Bold,TRUE,left,40,FALSE,FALSE,21
+Label Rendering Preferences,H3,25,13,Arial,TRUE,left,38,FALSE,FALSE,27
+Tooltip Display Rules,H3,26,12,Verdana,TRUE,left,35,FALSE,FALSE,20
+Request Header Parsing,H3,34,13,Arial-Bold,TRUE,left,36,FALSE,FALSE,22
+Data Encryption Schema,H3,17,13,Helvetica,TRUE,left,39,FALSE,FALSE,21
+State Management Strategy,H3,27,13,TimesNewRoman,TRUE,left,38,FALSE,FALSE,25
+Password Reset Workflow,H3,18,12,Calibri-Bold,TRUE,left,37,FALSE,FALSE,23
+Data Replication Scenarios,H3,24,13,Arial,TRUE,left,35,FALSE,FALSE,25
+Role Assignment Matrix,H3,37,13,Georgia,TRUE,left,39,FALSE,FALSE,20
+Threshold Alert Mechanism,H3,9,13,Arial,TRUE,left,36,FALSE,FALSE,23
+Version Control Notes,H3,20,13,Calibri,TRUE,left,38,FALSE,FALSE,20
+Auto-Save Intervals,H3,33,12,TimesNewRoman,TRUE,left,34,FALSE,FALSE,18
+Batch Download Process,H3,19,13,Arial,TRUE,left,38,FALSE,FALSE,21
+Employees must submit all receipts for verification within 30 days of incurring expenses.,body,2,10.5,Arial,FALSE,left,36.8,FALSE,FALSE,90
+The new guidelines take effect from the academic session starting in July 2024.,body,3,9.8,Calibri,FALSE,left,48.7,FALSE,FALSE,77
+Any discrepancies in the submitted travel claims should be immediately reported to HR.,body,4,10.6,TimesNewRoman,FALSE,left,39.2,FALSE,FALSE,84
+Multiple users can access the shared resource simultaneously with valid credentials.,body,7,10,Verdana,FALSE,right,91.2,FALSE,FALSE,81
+The department will announce the shortlisted candidates after the initial screening.,body,5,11,Georgia,FALSE,left,14.1,FALSE,FALSE,87
+Office hours are subject to change based on administrative requirements.,body,1,9.9,Arial,FALSE,left,61.6,FALSE,FALSE,71
+Attendance was recorded electronically using biometric authentication devices.,body,8,10.2,Calibri,FALSE,left,42.8,FALSE,FALSE,75
+The software license must be renewed yearly to avoid service interruptions.,body,9,11,TimesNewRoman,FALSE,left,30.8,FALSE,FALSE,74
+Final grades will be uploaded to the portal within two weeks of the examination.,body,10,10.1,Helvetica,FALSE,right,80.5,FALSE,FALSE,78
+Please ensure that your mobile number is updated on the employee portal.,body,6,10.8,Arial,FALSE,left,18.7,FALSE,FALSE,72
+All personal data collected will remain confidential and used only for official purposes.,body,12,10.4,Calibri,FALSE,left,39.2,FALSE,FALSE,85
+Students are encouraged to participate in at least one extracurricular activity.,body,13,11.2,Verdana,FALSE,left,33.3,FALSE,FALSE,76
+For security purposes  visitors must display a valid photo ID at all times.,body,14,10.5,Georgia,FALSE,left,22.6,FALSE,FALSE,74
+The system backup occurs every night at midnight to prevent data loss.,body,15,10,Arial,FALSE,left,41.7,FALSE,FALSE,68
+All parcels received at the main gate will be logged and screened by security staff.,body,17,11,Calibri,FALSE,left,44.9,FALSE,FALSE,80
+Application forms should be filled in block letters using blue or black ink.,body,18,9.7,TimesNewRoman,FALSE,left,17.2,FALSE,FALSE,76
+Management reserves the right to amend policies at any time without prior notice.,body,19,10.9,Arial,FALSE,right,37.3,FALSE,FALSE,83
+The classroom seating arrangement is based strictly on roll numbers.,body,20,10.3,Verdana,FALSE,left,54.1,FALSE,FALSE,66
+Subsidy claims are subject to verification by the concerned authority.,body,22,10.2,Georgia,FALSE,left,20.9,FALSE,FALSE,71
+All workshops will be conducted online via the official learning portal.,body,23,11.4,Arial,FALSE,left,36.2,FALSE,FALSE,70
+Employees are advised to change their passwords regularly for enhanced security.,body,24,10.6,Calibri,FALSE,left,41.1,FALSE,FALSE,80
+The library operates from 9:00 AM to 6:00 PM  Monday through Saturday.,body,25,11,Helvetica,FALSE,right,61,FALSE,FALSE,70
+Compensation for overtime will be addressed in accordance with the company policy.,body,26,10.1,Arial,FALSE,left,15.8,FALSE,FALSE,76
+Documents submitted without supporting evidence will not be processed.,body,27,9.8,TimesNewRoman,FALSE,left,32.5,FALSE,FALSE,67
+The canteen menu is revised every month based on student feedback.,body,28,10.5,Verdana,FALSE,left,49.6,FALSE,FALSE,66
+Mobile phones must be switched off during lectures and examinations.,body,29,11.2,Georgia,FALSE,right,75.2,FALSE,FALSE,70
+All official communication regarding events will be sent via email.,body,30,10,Arial,FALSE,left,40.5,FALSE,FALSE,70
+Applications received after the deadline will not be accepted.,body,31,9.9,Calibri,FALSE,left,16.7,FALSE,FALSE,58
+Leave applications must be submitted at least two days in advance.,body,32,11.1,TimesNewRoman,FALSE,left,30,FALSE,FALSE,67
+All staff members are required to attend the orientation session.,body,33,10.2,Arial,FALSE,right,83.8,FALSE,FALSE,67
+Parking spaces are allocated on a first-come  first-served basis.,body,34,10.7,Verdana,FALSE,left,29.2,FALSE,FALSE,68
+A valid gate pass is required for vehicle entry into the campus.,body,35,10.3,Georgia,FALSE,left,20.2,FALSE,FALSE,69
+Participants must keep their cameras on during the entire webinar.,body,36,11,Arial,FALSE,left,14.4,FALSE,FALSE,67
+All cheques must be drawn in favor of the institution’s name.,body,37,9.8,Calibri,FALSE,left,41.3,FALSE,FALSE,63
+The next meeting is scheduled for 10th March at the conference hall.,body,38,10.8,TimesNewRoman,FALSE,left,21.1,FALSE,FALSE,77
+All visitors should sign in at the reception upon arrival.,body,39,10.3,Arial,FALSE,left,54.6,FALSE,FALSE,55
+Any request for duplicate certificates will incur a nominal fee.,body,40,11.1,Georgia,FALSE,left,35.8,FALSE,FALSE,67
+Candidates must attach self-attested copies of required documents.,body,41,10.1,Arial,FALSE,left,27.7,FALSE,FALSE,68
+Internet usage is monitored to maintain network security and performance.,body,42,10.6,Verdana,FALSE,left,11.2,FALSE,FALSE,72
+Personal laptops may connect to the Wi-Fi network after registration.,body,43,10,Calibri,FALSE,left,52.5,FALSE,FALSE,66
+The cafeteria will remain closed during deep cleaning activities.,body,44,10.7,TimesNewRoman,FALSE,left,28.4,FALSE,FALSE,66
+Employees on medical leave must submit a fitness certificate before resuming duty.,body,45,11,Arial,FALSE,left,43.8,FALSE,FALSE,80
+Classroom projectors are available on prior booking from the IT desk.,body,46,10.4,Georgia,FALSE,right,19.2,FALSE,FALSE,69
+The safety officer must inspect all electrical installations every quarter.,body,47,10.8,Arial,FALSE,left,17.7,FALSE,FALSE,77
+All travel allowances need to be settled within a month of return.,body,48,9.9,Calibri,FALSE,left,46.4,FALSE,FALSE,76
+All students are required to wear their ID cards visibly at all times.,body,49,10.1,Verdana,FALSE,left,22,FALSE,FALSE,72
+No materials from the laboratory may be removed without permission.,body,50,11.2,Georgia,FALSE,left,34.1,FALSE,FALSE,69
+Access to the terrace is restricted except during emergency drills.,body,51,10.6,Arial,FALSE,left,36.6,FALSE,FALSE,66
+The helpline is operational from 8:00 AM to 8:00 PM on weekdays.,body,52,10.2,TimesNewRoman,FALSE,left,30.8,FALSE,FALSE,74
+Data entry errors should be reported immediately to the supervisor.,body,53,10.4,Arial,FALSE,right,23.5,FALSE,FALSE,67
+Course completion certificates will be emailed after verification.,body,54,9.8,Calibri,FALSE,left,19.4,FALSE,FALSE,62
+Leave the designated evacuation route clear at all times.,body,55,10.3,Verdana,FALSE,left,18.1,FALSE,FALSE,58
+Contact the accounts department for reimbursement related queries.,body,56,11.2,Georgia,FALSE,left,45.3,FALSE,FALSE,61
+The annual performance review includes self-evaluation and peer feedback.,body,57,10.7,Arial,FALSE,left,22.4,FALSE,FALSE,77
+Mobile wallet payments are accepted at all campus eateries.,body,58,10.9,Calibri,FALSE,right,41.3,FALSE,FALSE,69
+It is mandatory to wear safety shoes inside the workshop area.,body,59,10.6,TimesNewRoman,FALSE,left,12.8,FALSE,FALSE,68
+Do not share your password with anyone,body,60,10.2,Georgi,FALSE,left,24.9,FALSE,FALSE,60
+The final bill must be cleared within five working days.,body,61,9.9,Arial,FALSE,left,37.3,FALSE,FALSE,60
+Please keep a backup of all important data regularly.,body,62,10.1,Verdana,FALSE,left,17.6,FALSE,FALSE,58
+The deadline to submit proposals is strictly enforced.,body,63,10.3,Calibri,FALSE,left,12.3,FALSE,FALSE,54
+The next training session will be held on Wednesday.,body,64,11,TimesNewRoman,FALSE,right,32.7,FALSE,FALSE,55
+Department heads must ensure compliance with new safety guidelines.,body,65,10.5,Arial,FALSE,left,43.2,FALSE,FALSE,67
+Any form of plagiarism will result in disciplinary action.,body,66,9.8,Georgia,FALSE,left,15.3,FALSE,FALSE,54
+The invoice number must be quoted in all related correspondence.,body,67,10.8,Calibri,FALSE,left,21.1,FALSE,FALSE,69
+The annual leave quota resets at the start of each financial year.,body,68,10.1,Verdana,FALSE,left,27.8,FALSE,FALSE,71
+The guest Wi-Fi password changes every Monday for security reasons.,body,69,10,Arial,FALSE,left,11.4,FALSE,FALSE,73
+All grievances should be submitted in written form to HR.,body,70,10.2,Helvetica,FALSE,left,44.5,FALSE,FALSE,55
+Notify your supervisor immediately in case of any workplace injury.,body,71,10.6,TimesNewRoman,FALSE,left,40.1,FALSE,FALSE,68
+Pay slips will be available for download from the payroll portal.,body,72,10.7,Arial,FALSE,left,22.9,FALSE,FALSE,63
+Check the notice board daily for important announcements.,body,73,11.2,Georgia,FALSE,left,40.6,FALSE,FALSE,56
+Feedback may be submitted online through the official feedback form.,body,74,10.4,Calibri,FALSE,left,37.1,FALSE,FALSE,66
+All employees must participate in the annual health checkup.,body,75,9.9,TimesNewRoman,FALSE,right,30.8,FALSE,FALSE,61
+Latecomers will not be allowed entry after the session has started.,body,76,10.1,Arial,FALSE,left,41.2,FALSE,FALSE,66
+Please return all borrowed library books by the due date.,body,77,10.5,Verdana,FALSE,left,50.7,FALSE,FALSE,58
+After office hours  access is allowed only through the main gate.,body,78,10.2,Calibri,FALSE,left,13.6,FALSE,FALSE,68
+Keep the work area tidy and discard waste appropriately.,body,79,9.8,Georgia,FALSE,left,12,FALSE,FALSE,53
+All vendors must be registered before supplying goods or services.,body,80,10.7,Arial,FALSE,left,39.2,FALSE,FALSE,66
+The monthly report should be submitted by the fifth of each month.,body,81,10.4,Helvetica,FALSE,left,34.8,FALSE,FALSE,71
+Training materials are available for download on the intranet portal.,body,82,11,TimesNewRoman,FALSE,left,21.6,FALSE,FALSE,66
+Dispose of electronic waste at the designated collection point.,body,83,10,Arial,FALSE,left,13.7,FALSE,FALSE,59
+Unauthorized vehicles parked in reserved areas will be towed.,body,84,9.9,Verdana,FALSE,right,44.7,FALSE,FALSE,59
+The online registration window will remain open until midnight.,body,85,10.8,Georgia,FALSE,left,38.4,FALSE,FALSE,63
+Supporting documents must be provided for all reimbursement claims.,body,86,10.3,Calibri,FALSE,left,23.1,FALSE,FALSE,69
+Staff should maintain silence in the reading room at all times.,body,87,11,Arial,FALSE,left,16,FALSE,FALSE,67
+All new joiners will attend a three-day induction program.,body,88,10.5,TimesNewRoman,FALSE,left,39.8,FALSE,FALSE,63
+Smoking is strictly prohibited in all campus buildings and common areas.,body,89,10.2,Arial,FALSE,left,11.2,FALSE,FALSE,69
+Overdue books will attract a specified fine as per library rules.,body,90,10.9,Verdana,FALSE,left,46.5,FALSE,FALSE,66
+An emergency evacuation plan is displayed on every floor.,body,91,9.7,Georgia,FALSE,left,12.6,FALSE,FALSE,54
+Use only the official communication channels to share sensitive information.,body,92,10.3,Arial,FALSE,left,39.3,FALSE,FALSE,63
+Office supplies may be requested via the internal procurement system.,body,93,10.6,Calibri,FALSE,left,15.1,FALSE,FALSE,65
+Faculty should submit grades within seven days of examination completion.,body,94,11.2,TimesNewRoman,FALSE,left,42.2,FALSE,FALSE,74
+The cafeteria menu is subject to seasonal updates and availability of items.,body,95,10.4,Arial,FALSE,left,29.4,FALSE,FALSE,74
+No personal emails should be sent from the office email address.,body,96,10.8,Verdana,FALSE,left,43.6,FALSE,FALSE,65
+Students are responsible for maintaining discipline in laboratories and workshops.,body,97,10,Georgia,FALSE,left,40.4,FALSE,FALSE,72
+All expenses not supported by bills will be considered personal liability.,body,98,10.6,Arial,FALSE,left,21.1,FALSE,FALSE,71
+Shared folders must be kept organized and free of redundant files.,body,99,10.1,Calibri,FALSE,left,11.8,FALSE,FALSE,65
+Operating procedures are updated annually to reflect process improvements.,body,100,10,TimesNewRoman,FALSE,left,14.7,FALSE,FALSE,70
+Your outstanding performance this quarter is highly appreciated.,body,2,10.5,Arial,FALSE,left,19.1,FALSE,FALSE,61
+Congratulations to the entire team for successfully completing the project ahead of schedule.,body,5,10.7,Calibri,FALSE,left,32.7,FALSE,FALSE,80
+,,,,,,,,,,
+We regret to inform you that your application was not successful this time.,body,12,11.2,Arial,FALSE,left,13.9,FALSE,FALSE,70
+Please remember to save your work frequently to prevent data loss.,body,8,10.9,Verdana,FALSE,left,27.6,FALSE,FALSE,61
+The technical support team resolved user complaints quickly and efficiently.,body,15,10.8,Georgia,FALSE,left,22.2,FALSE,FALSE,72
+We value your feedback as it helps us improve our services.,body,14,10.3,Calibri,FALSE,left,41.1,FALSE,FALSE,61
+It is inspiring to see such a high level of engagement from participants.,body,13,10.6,Arial,FALSE,left,31,FALSE,FALSE,72
+Several technical errors were detected during the integration tests.,body,9,10.2,Helvetica,FALSE,left,53.1,FALSE,FALSE,62
+Our sincere apologies for the inconvenience caused by the system outage.,body,6,10.5,TimesNewRoman,FALSE,left,15.2,FALSE,FALSE,69
+Thank you for your patience during the maintenance window.,body,3,10.4,Verdana,FALSE,left,32.5,FALSE,FALSE,54
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Repeated failure to comply with protocol will result in disciplinary action.,body,9,10.2,Arial,FALSE,left,53.4,FALSE,FALSE,72
+,,,,,,,,,,
+Do not share sensitive information with unauthorized individuals.,body,16,11,TimesNewRoman,FALSE,left,28.3,FALSE,FALSE,59
+Your innovative approach to problem solving is greatly admired.,body,13,10.8,Arial,FALSE,left,14.6,FALSE,FALSE,62
+The increase in sales reflects the dedication of our staff.,body,17,10.1,Calibri,FALSE,left,38.1,FALSE,FALSE,60
+,,,,,,,,,,
+Please do not leave your belongings unattended in public areas.,body,19,10.5,Georgia,FALSE,left,41.6,FALSE,FALSE,62
+Congratulations on securing the first position in the competition!,body,20,11,Helvetica,FALSE,left,32.9,FALSE,FALSE,63
+The committee was impressed by the professionalism shown throughout.,body,21,10.7,Verdana,FALSE,left,25.8,FALSE,FALSE,64
+Negative comments in the review were addressed in the revised manuscript.,body,22,11.1,Calibri,FALSE,left,15.3,FALSE,FALSE,74
+Participants who consistently missed deadlines were flagged for review.,body,23,10.9,Arial,FALSE,left,48.2,FALSE,FALSE,63
+All candidates are encouraged to apply for the scholarship program.,body,24,10.2,TimesNewRoman,FALSE,left,41.3,FALSE,FALSE,69
+A formal warning was issued due to repeated rule violations.,body,25,10.8,Arial,FALSE,left,13.1,FALSE,FALSE,62
+,,,,,,,,,,
+We appreciate the constructive criticism provided by our peers.,body,27,10.5,Calibri,FALSE,left,16,FALSE,FALSE,66
+We apologize for any confusion caused by the previous announcement.,body,28,10.2,Verdana,FALSE,left,50.6,FALSE,FALSE,69
+Please report any suspicious activity to campus security immediately.,body,29,10.9,Arial,FALSE,left,19.2,FALSE,FALSE,68
+The delayed approval resulted in a project timeline extension.,body,30,10.1,TimesNewRoman,FALSE,left,44.7,FALSE,FALSE,61
+User feedback indicates areas for further product improvement.,body,31,10.8,Arial,FALSE,left,40.5,FALSE,FALSE,56
+Repeated login attempts may result in account suspension.,body,32,10.6,Georgia,FALSE,left,16.1,FALSE,FALSE,56
+Great teamwork enabled us to overcome major obstacles this quarter.,body,33,11.2,Calibri,FALSE,left,42.7,FALSE,FALSE,68
+We thank all volunteers for their dedication to community service.,body,34,10.4,Arial,FALSE,left,30.6,FALSE,FALSE,71
+Please note that new guidelines take effect from next month.,body,35,10.8,Verdana,FALSE,left,29.5,FALSE,FALSE,63
+,,,,,,,,,,
+Your attention to detail continues to set a positive example.,body,37,10.3,Arial,FALSE,left,21.5,FALSE,FALSE,61
+Violations of safety rules may result in suspension or penalty.,body,38,11,Calibri,FALSE,left,19.6,FALSE,FALSE,68
+,,,,,,,,,,
+The majority of survey respondents expressed high satisfaction.,body,40,10.2,Arial,FALSE,left,22.9,FALSE,FALSE,60
+Further clarification is required for ambiguous report sections.,body,41,10.5,Verdana,FALSE,left,12.1,FALSE,FALSE,61
+Positive customer reviews have contributed to our growing brand reputation.,body,42,11.1,Georgia,FALSE,left,38.5,FALSE,FALSE,72
+Please correct the highlighted errors before resubmission.,body,43,10.6,Calibri,FALSE,left,47.9,FALSE,FALSE,55
+All submitted entries were thoroughly reviewed for compliance.,body,44,10.4,Arial,FALSE,left,15,FALSE,FALSE,62
+It is disappointing to see recurring mistakes despite repeated instructions.,body,45,10.1,Helvetica,FALSE,left,14.4,FALSE,FALSE,73
+All queries will be addressed in the upcoming FAQ document.,body,46,10.9,TimesNewRoman,FALSE,left,33.2,FALSE,FALSE,62
+Please express any concerns directly to the grievance committee.,body,47,10.7,Arial,FALSE,left,26.1,FALSE,FALSE,60
+Late submissions will not be considered for evaluation.,body,48,10.5,Verdana,FALSE,left,35.9,FALSE,FALSE,56
+Achievements like these inspire others to strive for excellence.,body,49,10.3,Georgia,FALSE,left,19.4,FALSE,FALSE,62
+Technical malfunctions during the session resulted in lost data.,body,50,10.2,Calibri,FALSE,left,39.3,FALSE,FALSE,59
+Thank you for raising your concerns; your voice is important to us.,body,51,10.7,Arial,FALSE,left,36.2,FALSE,FALSE,69
+Increased absenteeism has been noted in the last attendance cycle.,body,52,10.1,TimesNewRoman,FALSE,left,29.8,FALSE,FALSE,65
+Well done to everyone who completed the online training modules.,body,53,10,Arial,FALSE,left,41.6,FALSE,FALSE,67
+Please ensure expenses are approved before making purchases.,body,54,10.5,Verdana,FALSE,left,23.2,FALSE,FALSE,57
+Persistent violations will result in stricter monitoring procedures.,body,55,10.9,Calibri,FALSE,left,11.8,FALSE,FALSE,59
+Your continuous commitment has contributed greatly to recent achievements.,body,56,11.2,Georgia,FALSE,left,45.4,FALSE,FALSE,67
+,,,,,,,,,,
+,,,,,,,,,,
+We are grateful for your contributions to the research project.,body,59,10.1,Arial,FALSE,left,34.8,FALSE,FALSE,65
+Repeated non-compliance has resulted in formal disciplinary proceedings.,body,60,10.4,Verdana,FALSE,left,31.2,FALSE,FALSE,67
+Thank you for attending the event and sharing valuable insights.,body,61,10.3,Georgia,FALSE,left,17.5,FALSE,FALSE,64
+Please avoid sending confidential data via unsecured channels.,body,62,9.9,Arial,FALSE,left,25.2,FALSE,FALSE,58
+We are pleased to announce the launch of our new initiative.,body,63,10.8,Calibri,FALSE,left,40.6,FALSE,FALSE,61
+The recent audit revealed several areas for management focus.,body,64,10.6,TimesNewRoman,FALSE,left,18.9,FALSE,FALSE,65
+Repeated praise was given for the quality of customer service.,body,65,10.5,Arial,FALSE,left,14,FALSE,FALSE,65
+Our sincere thanks go out to the volunteers for their time.,body,66,10.7,Verdana,FALSE,left,21.6,FALSE,FALSE,61
+Multiple complaints indicate dissatisfaction with current procedures.,body,67,10.3,Calibri,FALSE,left,33.7,FALSE,FALSE,63
+Please ensure safety equipment is worn at all times.,body,68,11.1,Arial,FALSE,left,42.8,FALSE,FALSE,53
+Misuse of office resources has been brought to management’s attention.,body,69,10.2,Georgia,FALSE,left,16.9,FALSE,FALSE,67
+Congratulations on being selected for the international program.,body,70,10.9,Calibri,FALSE,left,15.5,FALSE,FALSE,64
+Unauthorized access attempts were logged during after-hours.,body,71,10.4,Arial,FALSE,left,32.9,FALSE,FALSE,57
+We welcome your suggestions to improve workplace efficiency.,body,72,10.2,Verdana,FALSE,left,23.3,FALSE,FALSE,58
+A formal complaint was registered due to repeated miscommunication.,body,73,10.5,TimesNewRoman,FALSE,left,40.1,FALSE,FALSE,65
+Thank you for your hard work; your dedication inspires others.,body,74,10.1,Arial,FALSE,left,16.4,FALSE,FALSE,60
+Hardware failures resulted in an extended downtime yesterday.,body,75,10.6,Calibri,FALSE,left,24.3,FALSE,FALSE,54
+Please avoid using personal devices for official communications.,body,76,10.5,Georgia,FALSE,left,44.6,FALSE,FALSE,61
+We are delighted by the rapid progress demonstrated this semester.,body,77,11,Verdana,FALSE,left,13.7,FALSE,FALSE,65
+Your recent achievement has set a new departmental benchmark.,body,78,10.3,Arial,FALSE,left,19.9,FALSE,FALSE,62
+Disciplinary action will follow if the infraction is repeated.,body,79,10.6,TimesNewRoman,FALSE,left,37.5,FALSE,FALSE,61
+The survey revealed both positive trends and critical areas.,body,80,10.9,Calibri,FALSE,left,41.7,FALSE,FALSE,57
+,,,,,,,,,,
+,,,,,,,,,,
+Positive feedback was received for the user-friendly interface.,body,83,10.3,Georgia,FALSE,left,27.9,FALSE,FALSE,61
+Your continuous support has made this project a grand success.,body,84,11,Calibri,FALSE,left,48,FALSE,FALSE,62
+Complaints regarding cleanliness were acknowledged by facility management.,body,85,10.4,Arial,FALSE,left,21.2,FALSE,FALSE,63
+Please report lost items immediately to the lost and found.,body,86,10.9,TimesNewRoman,FALSE,left,12.1,FALSE,FALSE,59
+The audit identified multiple areas that require immediate attention.,body,87,10.3,Arial,FALSE,left,41.5,FALSE,FALSE,64
+Quality assurance checks yielded highly satisfactory results.,body,88,10.6,Verdana,FALSE,left,19.8,FALSE,FALSE,60
+Concerns about network speed have been forwarded to IT.,body,89,10.2,Georgia,FALSE,left,21,FALSE,FALSE,54
+Timely completion of this project reflects excellent planning.,body,90,10.1,Arial,FALSE,left,39.8,FALSE,FALSE,61
+Many users expressed delight at the new feature rollout.,body,91,10.5,Calibri,FALSE,left,13.8,FALSE,FALSE,58
+Repeated system outages have negatively impacted productivity.,body,92,10.8,Arial,FALSE,left,19.6,FALSE,FALSE,59
+Your willingness to assist colleagues is commendable.,body,93,10.4,Verdana,FALSE,left,46.6,FALSE,FALSE,53
+Unresolved issues led to escalations in the previous quarter.,body,94,10.7,Georgia,FALSE,left,33.6,FALSE,FALSE,60
+Service disruption was caused by planned infrastructure upgrades.,body,95,11.2,TimesNewRoman,FALSE,left,31.8,FALSE,FALSE,59
+We appreciate the positive remarks made during the meeting.,body,96,10.5,Arial,FALSE,left,38.2,FALSE,FALSE,59
+Your ideas have greatly contributed to successful event planning.,body,97,10.8,Calibri,FALSE,left,25.7,FALSE,FALSE,64
+Repeated outdated data submissions have hindered reporting.,body,98,10.6,Verdana,FALSE,left,21.9,FALSE,FALSE,61
+We are grateful for your quick response in resolving the issue.,body,99,10.2,Arial,FALSE,left,41.5,FALSE,FALSE,66
+The late arrival of materials disrupted the production schedule.,body,100,10,TimesNewRoman,FALSE,left,26.5,FALSE,FALSE,61

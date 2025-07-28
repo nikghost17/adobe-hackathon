@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Development/training files not needed for execution
+train_model.py
+headings_dataset_4.csv
+
+# Local data folders (they are mounted at runtime)
+input/
+output/
+
+# IDE and git folders
+.vscode/
+.idea/
+.git/
+README.md

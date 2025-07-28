@@ -19,6 +19,8 @@ class PDFOutlineExtractorV8_Final:
         self.title = "Untitled Document"
         self.outline = []
         self.toc_pages = set()
+        # --- NEW: Initialize a set to store text found inside tables ---
+        self.table_texts = set()
 
     def _is_bold(self, font_name):
         return any(x in font_name.lower() for x in ['bold', 'black', 'heavy', 'cbi'])
@@ -47,6 +49,46 @@ class PDFOutlineExtractorV8_Final:
                         "bbox": line["bbox"],
                         "alignment": alignment
                     })
+
+    # --- NEW: Method to detect and extract text from tables ---
+    def _extract_table_content(self):
+        """
+        Uses PyMuPDF's table detection to find all tables and extracts their content.
+        Stores all unique cell text in self.table_texts for later filtering.
+        """
+        for page in self.doc:
+            # find_tables() is a powerful feature to automatically detect tabular data
+            tables = page.find_tables()
+            for table in tables:
+                # The extract() method returns a list of lists, representing the table rows
+                content = table.extract()
+                for row in content:
+                    for cell in row:
+                        if cell and isinstance(cell, str):
+                            # Add cleaned cell text to our set for quick lookups later
+                            self.table_texts.add(cell.strip().lower())
+
+    # --- NEW: Helper method to identify lines that are likely just dates ---
+    def _is_likely_date(self, text):
+        """
+        Checks if a string is likely a standalone date.
+        Returns True if it matches common date patterns, False otherwise.
+        """
+        # A regex to find common date patterns (e.g., "20 April 2025", "April 20, 2025")
+        # This looks for month names surrounded by numbers.
+        date_pattern = re.compile(
+            r'\b(?:january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\b',
+            re.IGNORECASE
+        )
+        if date_pattern.search(text):
+            # If a month is found, check if the line contains much else besides numbers and date-related words.
+            # We strip date-related words and see what's left.
+            non_date_text = re.sub(r'[\d\s,.-]+', '', text.lower())
+            non_date_text = date_pattern.sub('', non_date_text)
+            # If very little non-date text remains, it's likely just a date.
+            if len(non_date_text) < 5:
+                return True
+        return False
 
     def _determine_body_style(self):
         styles = [
@@ -139,15 +181,36 @@ class PDFOutlineExtractorV8_Final:
                 if indent_diff > 5 and last_heading['level'] > 0:
                     level = min(level, last_heading['level'] + 1)
                 self.outline.append({
-                    "level": f"H{level}", "text": text, "page": line["page_num"] + 1
+                    "level": f"H{level}", "text": text, "page": line["page_num"]
                 })
                 last_heading = {'level': level, 'x_pos': line['bbox'][0]}
 
     def process(self):
+        # --- MODIFIED: The process flow is updated to include new filtering steps ---
+
+        # 1. Initial data extraction from the PDF
         self._extract_all_lines()
+        self._extract_table_content()  # Extract table content early on
+
+        # 2. Analyze styles and special sections like the Table of Contents
         self._determine_body_style()
         self._detect_toc_pages()
         self._extract_title()
+
+        # 3. Perform the core heading classification based on heuristics
         self._classify_headings()
-        final_outline = [h for h in self.outline if h['text'] != self.title]
+
+        # 4. --- NEW: Post-processing and noise filtering ---
+        # Start with the raw list of headings identified
+        clean_outline = self.outline
+
+        # Filter 1: Remove any headings that are identical to the document title
+        clean_outline = [h for h in clean_outline if h['text'] != self.title]
+
+        # Filter 2: Remove headings that are likely just dates
+        clean_outline = [h for h in clean_outline if not self._is_likely_date(h['text'])]
+
+        # Filter 3: Remove headings whose text content was found inside a table
+        final_outline = [h for h in clean_outline if h['text'].strip().lower() not in self.table_texts]
+
         return {"title": self.title, "outline": final_outline}

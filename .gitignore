@@ -1,0 +1,53 @@
+# --- Byte-compiled / optimized / C files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- C extensions ---
+*.so
+
+# --- Distribution / packaging ---
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+.env
+
+# --- IDE / Editor-specific files ---
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- Hackathon-specific Folders ---
+# Ignore local input and output directories. These are mounted by Docker at runtime.
+input/
+output/
+
+# --- Development & Training Data ---
+# Ignore the large CSV dataset used for training the model.
+# This file is not needed for the final execution.

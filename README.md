@@ -48,8 +48,8 @@ You must have Python 3.9+ installed.
 
 1.  **Clone the Repository**:
     ```bash
-    git clone <your-repo-url>
-    cd <your-repo-name>
+    git clone https://github.com/nikghost17/adobe-hackathon.git
+    cd adobe-hackatho
     ```
 
 2.  **Install Dependencies**:
